@@ -329,3 +329,11 @@ figure {
   height: inherit;
   flex-wrap: inherit;
 }
+
+/* Desktop first se empieza desde el mas grande */
+
+@media screen and (max-width:1024px){
+  body{
+    border: 10px solid blue;
+  }
+}
